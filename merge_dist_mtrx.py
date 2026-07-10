@@ -2,8 +2,8 @@ import pandas as pd
 import glob
 import os
 
-input_dir = "./results_pretrained_def"
-output_file = "combined_dimtrx_pretrained_def.tsv"
+input_dir = "./results_pretrained"
+output_file = "combined_dimtrx_pretrained.tsv"
 
 files = glob.glob(os.path.join(input_dir, "*.csv"))
 

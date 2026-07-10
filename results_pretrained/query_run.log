@@ -1,0 +1,28 @@
+
+==> Input arguments...
+
+Query directory: ./clade_11_fna_test_kf_p1
+Model directory: ./pretrained_models
+Class information: ./results_pretrained
+Seed: 28
+
+==> Querying...
+
+Total subtrees to query: 1
+
+==> Working on subtree 1...
+
+
+==> Building model...
+
+
+==> Compute model output...
+
+
+==> Computation is completed for subtree 1!
+
+Time: 00:00:02
+
+==> Computation Completed!
+
+Time: 00:00:02

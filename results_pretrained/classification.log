@@ -1,0 +1,20 @@
+
+==> Input arguments...
+
+Feature directory: ./clade_11_fna_test_kf_p1
+Model: ./pretrained_models
+Seed: 28
+
+==> Building model...
+
+Number of Classes: 8
+
+==> Preparing Input Data...
+
+
+==> Compute model output...
+
+
+==> Classification Completed!
+
+Time: 00:00:02
