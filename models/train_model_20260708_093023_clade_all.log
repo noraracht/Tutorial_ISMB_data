@@ -1,0 +1,278 @@
+
+==> Input arguments...
+
+Feature directory: ./clade_11_fna_train_kf
+Clades information: ./train_tree/train_set.subtrees
+Ground truth directory: ./train_tree
+Test set: None
+
+==> Parameters...
+
+GPU Support: No
+Hidden Size fc1: 2048
+Embedding Size: 1024
+Starting Epoch: 0
+Total Epochs: 2
+Batch Size: 16
+Learning Rate: 1e-05
+Learning Rate Min: 3e-06
+Learning Rate Decay: 2000
+Clades to train: all
+Random Seed: 28
+Model save interval: unspecified
+
+==> Subtree training...
+
+Number of Classes: 8
+
+==> Working on subtree 0...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 95, cols: 8192
+Dimensions of true distance matrix rows: 95, cols: 95
+Number of Train Samples: 95
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:00:25
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.27012784469329104153, Time: 00:00:36
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.17384091436611165404, Time: 00:00:45
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.17384091436611165404
+Dimensions of distortion matrix rows:95 cols:96
+Dimensions of embedding output rows:95 cols:1025
+
+==> Training for subtree 0 completed!
+
+Time: 00:00:45
+
+==> Working on subtree 1...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 91, cols: 8192
+Dimensions of true distance matrix rows: 91, cols: 91
+Number of Train Samples: 91
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:01:12
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.16932949705237329563, Time: 00:01:22
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.11083924481729348632, Time: 00:01:32
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.11083924481729348632
+Dimensions of distortion matrix rows:91 cols:92
+Dimensions of embedding output rows:91 cols:1025
+
+==> Training for subtree 1 completed!
+
+Time: 00:01:32
+
+==> Working on subtree 2...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 96, cols: 8192
+Dimensions of true distance matrix rows: 96, cols: 96
+Number of Train Samples: 96
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:01:58
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.11403188671528254050, Time: 00:02:10
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.06954052956118952911, Time: 00:02:19
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.06954052956118952911
+Dimensions of distortion matrix rows:96 cols:97
+Dimensions of embedding output rows:96 cols:1025
+
+==> Training for subtree 2 completed!
+
+Time: 00:02:20
+
+==> Working on subtree 3...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 68, cols: 8192
+Dimensions of true distance matrix rows: 68, cols: 68
+Number of Train Samples: 68
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:02:40
+
+==> Training model...
+
+Epoch [1/2], Step [5/5], Train loss: 0.19084740825861179481, Time: 00:02:51
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [5/5], Train loss: 0.11205972980696435326, Time: 00:03:00
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.11205972980696435326
+Dimensions of distortion matrix rows:68 cols:69
+Dimensions of embedding output rows:68 cols:1025
+
+==> Training for subtree 3 completed!
+
+Time: 00:03:00
+
+==> Working on subtree 4...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 83, cols: 8192
+Dimensions of true distance matrix rows: 83, cols: 83
+Number of Train Samples: 83
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:03:25
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.18508349201232041081, Time: 00:03:37
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.10659637578552991211, Time: 00:03:46
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.10659637578552991211
+Dimensions of distortion matrix rows:83 cols:84
+Dimensions of embedding output rows:83 cols:1025
+
+==> Training for subtree 4 completed!
+
+Time: 00:03:46
+
+==> Working on subtree 5...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 81, cols: 8192
+Dimensions of true distance matrix rows: 81, cols: 81
+Number of Train Samples: 81
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:04:09
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.17239479117227574090, Time: 00:04:19
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.14798748024571120596, Time: 00:04:28
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.14798748024571120596
+Dimensions of distortion matrix rows:81 cols:82
+Dimensions of embedding output rows:81 cols:1025
+
+==> Training for subtree 5 completed!
+
+Time: 00:04:29
+
+==> Working on subtree 6...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 70, cols: 8192
+Dimensions of true distance matrix rows: 70, cols: 70
+Number of Train Samples: 70
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:04:50
+
+==> Training model...
+
+Epoch [1/2], Step [5/5], Train loss: 0.15011942309157269571, Time: 00:05:00
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [5/5], Train loss: 0.10815400278962843117, Time: 00:05:09
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.10815400278962843117
+Dimensions of distortion matrix rows:70 cols:71
+Dimensions of embedding output rows:70 cols:1025
+
+==> Training for subtree 6 completed!
+
+Time: 00:05:10
+
+==> Working on subtree 7...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 91, cols: 8192
+Dimensions of true distance matrix rows: 91, cols: 91
+Number of Train Samples: 91
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:05:36
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.13827170181052056419, Time: 00:05:47
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.10198606764310579054, Time: 00:05:56
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.10198606764310579054
+Dimensions of distortion matrix rows:91 cols:92
+Dimensions of embedding output rows:91 cols:1025
+
+==> Training for subtree 7 completed!
+
+Time: 00:05:56
+
+==> Training Completed!
+
+Time: 00:05:56
