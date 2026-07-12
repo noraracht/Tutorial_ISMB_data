@@ -1,0 +1,61 @@
+
+==> Input arguments...
+
+Feature directory: ./clade_11_fna_train_kf
+Clades information: ./train_tree/train_set.subtrees
+Ground truth directory: ./train_tree
+Test set: None
+
+==> Parameters...
+
+GPU Support: No
+Hidden Size fc1: 2048
+Embedding Size: 1024
+Starting Epoch: 0
+Total Epochs: 2
+Batch Size: 16
+Learning Rate: 1e-05
+Learning Rate Min: 3e-06
+Learning Rate Decay: 2000
+Clades to train: 1
+Random Seed: 28
+Model save interval: unspecified
+
+==> Subtree training...
+
+Number of Classes: 1
+
+==> Working on subtree 1...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 91, cols: 8192
+Dimensions of true distance matrix rows: 91, cols: 91
+Number of Train Samples: 91
+
+==> Building model...
+
+
+==> Model parameters----------
+Total parameters: 18877440
+Trainable parameters: 18877440
+Time: 00:00:25
+
+==> Training model...
+
+Epoch [1/2], Step [6/6], Train loss: 0.18422490539507241358, Time: 00:00:35
+Epoch 1	                   LR:0.00001000000000000000
+Epoch [2/2], Step [6/6], Train loss: 0.10908741446185263313, Time: 00:00:44
+Epoch 2	                   LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 0.10908741446185263313
+Dimensions of distortion matrix rows:91 cols:92
+Dimensions of embedding output rows:91 cols:1025
+
+==> Training for subtree 1 completed!
+
+Time: 00:00:45
+
+==> Training Completed!
+
+Time: 00:00:45

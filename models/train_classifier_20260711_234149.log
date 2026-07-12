@@ -1,0 +1,45 @@
+
+==> Input arguments...
+
+Feature directory: ./clade_11_fna_train_kf
+Clades information: ./train_tree/train_set.subtrees
+
+==> Parameters...
+
+GPU Support: No
+Hidden Size fc1: 2048
+Starting Epoch: 0
+Total Epochs: 2
+Batch Size: 16
+Learning Rate: 1e-05
+Learning Rate Min: 3e-06
+Learning Rate Decay: 2000
+Random Seed: 28
+Masking: False
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 675, cols: 8192
+Number of Train Samples: 675
+
+==> Building model...
+
+Number of Classes: 8
+
+==> Model parameters----------
+Total parameters: 16795656
+Trainable parameters: 16795656
+Time: 00:02:21
+
+==> Training model...
+
+Epoch [1/2], Step [43/43], Train loss: 1.63606500219415740283, 0.44444444444444441977, Time: 00:02:43
+Epoch 1	               LR:0.00001000000000000000
+Epoch [2/2], Step [43/43], Train loss: 1.10470071015534587744, 0.65481481481481484952, Time: 00:03:03
+Epoch 2	               LR:0.00001300000000000000
+Best Epoch [2/2], Lowest loss: 1.10470071015534587744, Highest accuracy: 0.65481481481481484952
+Dimensions of class output rows:675 cols:12
+
+==> Training Completed!
+
+Time: 00:03:03
